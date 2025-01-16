@@ -1,1 +1,331 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.main {
+  background-image: url(Assets/img/background.jpeg);
+  height: 95vh;
+  width: 100%;
+  background-size: max(1200px, 100vw);
+  background-position: center;
+}
+.main .blackbox {
+  background-color: black;
+  opacity: 0.7;
+  width: 100%;
+  height: 95vh;
+  position: absolute;
+  top: 0;
+}
+.nav .logo img {
+  width: 150px;
+  position: relative;
+  z-index: 1;
+}
+nav {
+  margin: auto;
+  padding: 25px;
+  max-width: 80vw;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+#signin {
+  margin-left: 20px;
+  width: 70px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  border: none;
+}
+#language {
+  margin-left: 20px;
+  width: 120px;
+  height: 30px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 3px;
+  background-blend-mode: darken;
+  position: relative;
+  z-index: 1;
+}
+#language span {
+  font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+  #language .English {
+    display: none;
+  }
+}
+.hero {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 9%;
+  left: 15%;
+  font-size: 1em;
+  align-content: center;
+  z-index: 1;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  align-items: space-between;
+}
+.Bold {
+    width: 100%;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 100px;
+  font-family: "Martel Sans", sans-serif;
+}
+.hero:nth-child(2){
+    font-size: 20px;
+}
+.hero span {
+  text-align: center;
+}
+#Email{
+    width: 100%;
+    margin: 20px;
+    height: 15%;
+    align-content: space-around;
+    position: relative;
+    left:20%
+}
+#Email input{
+    width:35%;
+    height: 100%;
+    text-align: justify;
+    font-size: large;
+    background: none;
+    border:2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+#Email button{
+    width: 20%;
+    height: 110%;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    top: 7%;
+}
+#Email button span{
+    font-size: 30px;
+    font-size: x-large;
+    position: relative;
+    top:7%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+hr{
+    width: 100%;
+    height: 8px;
+    background-color: grey;
+    position: relative;
+    top: 35%;
+}
+.Blackbg{
+    background-color: black;
+    width: 100%;
+    height:550px;
+    color: white;
+}
+.body1{
+    width: 80%;
+    height:100%;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left:150px ;
+}
+.Blackbg span{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 23px;
+    text-align: center;
+    line-height: 2;
+}
+.Blackbg .text1{
+    width: 20%;
+    height: 100%;
+}
 
+#tv1{
+    background-image: url(Assets/img/tv1.1.png);
+    width: 60%;
+    height: 60%;
+    z-index: 3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tv1 video{
+    position: relative;
+    bottom: 2.5%;
+    left: 13%;
+    width: 73%;
+    height: 100%;
+}
+.body2{
+    width: 80%;
+    height:100%;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    padding-left:150px ;
+}
+.body2 .Bold{
+    line-height: 1.5;
+}
+.body2 img{
+    height: 70%;
+    width: 70%;
+
+}
+.body3{
+    width: 80%;
+    height:100%;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left:150px ;
+}
+.body3 span{
+    font-size: 23px;
+}
+#tv2{
+    background-image: url(Assets/img/tv1.1.png);
+    width: 60%;
+    height: 60%;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tv2 video{
+    position: relative;
+    bottom: 2.5%;
+    left: 13%;
+    width: 73%;
+    height: 100%;
+    z-index: -1;
+}
+.body4{
+    width: 80%;
+    height:100%;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left:150px ;
+}
+.body4 img{
+    height: 80%;
+    width: 80%;
+
+}
+.body4 span{
+    font-size: 23px;
+}
+.footer1{
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.footer1 .Bold{
+    text-align: center;
+}
+.FAQ{
+    background-color:rgb(45, 45, 45);
+    width: 80%;
+    height: 6%;
+    margin-bottom: 10px;
+    margin-left:10%;
+    padding-top: 1.4%;
+    padding-left:20px ;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.FAQ .material-symbols-outlined{
+    position: relative;
+    top: 20%;
+}
+.FAQ:hover{
+    background-color: rgb(57, 57, 57);
+    transition-timing-function: ease-out;
+    transition-duration: .2s;
+}
+#Email2{
+    width: 70%;
+    margin: 20px;
+    height: 5.5%;
+    align-content: space-around;
+    position: relative;
+    left:28%
+}
+#Email2 input{
+    width:35%;
+    height: 100%;
+    text-align: justify;
+    font-size: large;
+    background: none;
+    border:2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+#Email2 button{
+    width: 20%;
+    height: 110%;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    top: 3%;
+}
+#Email2 button span{
+    font-size: 30px;
+    font-size: x-large;
+    position: relative;
+    top:3%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.Text6{
+    text-align: center;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 3%;
+}
